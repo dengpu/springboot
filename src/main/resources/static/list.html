@@ -37,37 +37,44 @@
      
       <ul class="nav navbar-nav navbar-right">
         <li><a href="form.html">회원가입</a></li>
-        <li><a href="/list">리스트</a></li>
-       
-      </ul>
+       <li><a href="/list">리스트</a></li>
+     
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
     
-    <h1>회원가입</h1>
     <div class="container">
-<form action="/create" method="post">
- <div class="form-group">
-    <label for="userId">user ID</label>
-    <input type="text" class="form-control" name="userId" placeholder="아이디를 입력해 주세요">
-  </div>
-  <div class="form-group">
-    <label for="Password">Password</label>
-    <input type="password" class="form-control" name="password" placeholder="비밀번호를 입력해 주세요">
-  </div>
-   <div class="form-group">
-    <label for="Email">Email address</label>
-    <input type="email" class="form-control" name="email" placeholder="이메일을 입력해 주세요">
-  </div>
-    <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" class="form-control" name="name" placeholder="이름을 입력해 주세요">
-  </div>
-  
- 
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-</div>
+    <table class="table table-condensed">
+    <caption>사용자 목록</caption>
+    <thead>
+    	<tr>
+    	<th>사용자 아이디</th>
+    	<th>이름</th>
+    	<th>이메일</th>
+    	</tr>
+    
+    </thead>
+    <tbody>
+    <tr>
+    <th scope="row">dengpu</th>
+    <td>뎅푸</td>
+    <td>dengpu@naver.com</td>
+    
+    </tr>
+    
+    <tr>
+    <th scope="row">sepo</th>
+    <td>세모포누메</td>
+    <td>sepo@google.com</td>
+    
+    </tr>
+    
+    </tbody>
+    
+    </table>
+    
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/webjars//jquery/3.1.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
